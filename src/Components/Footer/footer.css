@@ -1,0 +1,224 @@
+/* .pt{
+    padding-top: 4rem;
+    font-family: Roboto, sans-serif;
+}
+.footer{
+    background-image: url('https://mediacity.co.in//fallspa/static/media/footer-bg.72ed36e129342f713682.png');
+
+}
+.footer-widget{
+    color: #d4d4d4;
+}
+.f-contact ul{
+    padding-left: 0px;
+}
+
+.contact-box{
+    display: flex;
+}
+
+.contact-box .icon{
+    padding-right: 1.5rem;
+}
+
+.f-widget-title{
+    position: relative;
+    margin-bottom: 2.5rem;
+
+}
+.f-widget-title h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    font-family: "PT Serif", serif;
+}
+.f-widget-title h2:before{
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAHCAYAAACfmsriAAAAR0lEQVRIiWP87z/3P8MowAYYGTYkEQwYFrDCUUA2YPz/fzQBUgKYhq7TBwdgIeiKgHkjIyTIBKMpkEJAOAUiwGhhiQ4YGBgAU7MI+9/AG/EAAAAASUVORK5CYII='), no-repeat;
+    bottom: 0;
+    content: "";
+    height: 7px;
+    left: 0;
+    position: absolute;
+    width: 80px;
+    margin-bottom: -20px;
+}
+
+.footer-link ul li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+.footer-link ul{
+    padding-left: 0px;
+}
+
+.footer-link ul li a {
+    color: #d4d4d4;
+    display: inline-block;
+}
+
+.subscribe{
+    position: relative;
+}
+
+.header-input {
+    background: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-radius: 15px;
+    height: 4.2rem;
+    margin-bottom: 0;
+    outline: none !important;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.header-btn {
+    background: #884cd2;
+    border: none;
+    border-radius: 10px;
+    bottom: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.fa-location-arrow:before {
+    content: "\f124";
+}
+.footer-social {
+    float: left;
+    margin-top: 2rem;
+}
+.footer-social a {
+    background-color: #ffffff47;
+    border-radius: 50%;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+}
+
+.footer-social a:hover{
+    background: linear-gradient(0deg, #0998e6 0, #3660d9 100%) !important;
+    color: #fff !important;
+}
+.footer-social a:hover:nth-child(2){
+    background: linear-gradient(0deg, #e87d35 0, #dc5b8e 100%) !important;
+    color: #fff !important;
+}
+.footer-social a:hover:nth-child(3){
+    background: black !important;
+    color: #fff !important;
+}
+
+.copyright-wrap {
+    background-color: #1b1a1a;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+}
+.copy-text a {
+    color: #ff4f9d;
+    text-decoration: none;
+}
+.copy-contact {
+    float: right;
+}
+
+.copy-contact ul {
+    display: flex;
+    list-style: none;
+}
+.copy-contact li .c-contact {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.copy-contact li .c-contact .icon img {
+    margin-top: 7px;
+}
+span {
+    overflow-wrap: break-word;
+}
+
+.copy-contact li .c-contact h3 {
+    color: #fff;
+    font-size: 14px;
+    font-family: "PT Serif", serif;
+    font-weight: 600;
+
+}
+
+.copyright-wrap li {
+    display: inline;
+    margin-left: 10px;
+    padding-left: 15px;
+    position: relative;
+    
+}
+
+.copy-contact li {
+    border-right: 1px solid #474747;
+    padding-right: 15px;
+}
+.copy-contact li:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px){
+.copy-contact {
+    margin-top: 10px;
+    width: 100%;
+}
+.copy-contact li:first-child {
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.copy-contact li:last-child {
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+}
+
+@media (max-width: 767px){
+.copyright-wrap li{
+    padding-top: 30px;
+    align-items: center;
+}
+.copy-text {
+    margin: 0 0 20px;
+}
+.copy-contact {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    float: none;
+}
+.footer-link {
+    text-align: inherit;
+}
+.col {
+    flex: none;
+}
+
+
+
+} */
+
+/* @media (max-width: 500px) {
+    .row{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    
+} */

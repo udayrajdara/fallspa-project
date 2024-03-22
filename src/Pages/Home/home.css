@@ -1,0 +1,560 @@
+.banner{
+    height: auto;
+    background:url('https://mediacity.co.in/fallspa/static/media/slider_bg.ce5ea59a637d85e1cd36.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-banner{
+    padding-top: 17rem;
+    padding-left: 5rem;
+    padding-bottom: 8rem;
+}
+
+.caption{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FF4F9D;
+    font-family: "PT Serif", serif;
+    
+}
+
+.title{
+    font-size: 3.8rem;
+    font-family: "PT Serif", serif;
+    line-height: 1.2;
+
+}
+
+.sub-caption{
+    font-size: 18px;
+    padding: 1rem 0;
+    width: 550px;
+
+}
+
+.home-btn-section{
+    margin-top: 1rem;
+}
+
+.home-btn1{
+    background-color: #884CD2;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.home-btn1:hover{
+    background-color: #FF4F9D;
+    color: white;
+}
+
+.home-btn2{
+    background-color: #FF4F9D;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+    border-radius: 10px;
+}
+
+
+.card{
+    width: 540px;
+    height: 220px !important;
+    border-radius: 0;
+    border: none;
+    font-family: "PT Serif", serif;
+
+}
+
+/* .img3 img{
+    border-radius: 0px 3px 3px 0px !important;
+} */
+
+
+.img1{
+    height: auto !important;
+    background:url('https://mediacity.co.in/fallspa/static/media/banner-01.5d5bc98ec29746557efe.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img2{
+    height: auto !important;
+    background: url('https://mediacity.co.in/fallspa/static/media/banner-02.f0e35a01b097359e9e97.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img3{
+    height: auto !important;
+    background:url('https://mediacity.co.in/fallspa/static/media/banner-03.c7d1bc19a9e94194907c.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.cards{
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 0;
+    border: none;
+    font-family: "PT Serif", serif;
+
+}
+
+
+.card-btn-1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #FF4F9D;
+    
+}
+.card-btn-2{
+    background-color: #884CD2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    
+}
+.card-btn-3{
+    background-color: #E88E38;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    
+}
+.card-btn{
+    color: white;
+    padding: 0.7rem;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+
+.home-card-title{
+    width: 100% !important;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.card-body{
+    padding-top: 2rem !important;
+}
+
+
+/* Care Skin Section */
+
+.care-skin-section{
+    background-image: url('https://mediacity.co.in/fallspa/static/media/about-bg.ce9a15d38086f4a628b7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.care-skin-section{
+    padding: 7rem 2rem;
+}
+.care-skin-about{
+    font-size: 23px;
+}
+
+.care-skin-title{
+    font-size: 4rem;
+    color: #00173C;
+    line-height: 1.2;
+}
+
+.care-skin-caption{
+    font-size: 14px;
+    line-height: 2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(121, 121, 121);
+}
+
+.img-4{
+    height: 550px;
+    background:url('https://mediacity.co.in/fallspa/static/media/about_img.b6748cff8cd52813a33b.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+/* Service Section */
+
+/* .container{
+    background-color: transparent;
+} */
+.bg-provide{
+    background-image: url('https://mediacity.co.in/fallspa/static/media/services-bg.5894564ee3c906558349.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sr-tw-ul li {
+    border-radius: 10px;
+    float: left;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 1rem 3rem;
+    width: 100%;
+
+}
+.sr-tw-ul {
+    position: relative;
+    z-index: 1;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+.about-content li {
+    display: flex;
+    margin-bottom: 10px !important;
+}
+
+.sr-tw-ul h4{
+    font-weight: 600;
+    font-family: "PT Serif", serif;
+
+}
+.sr-tw-ul li .icon-right {
+    width: 108px;
+    height: 120px;
+}
+.sr-tw-ul li .icon {
+    width: 108px;
+    height: 120px;
+
+}
+
+.sr-tw-ul li .icon img{
+    width: 100%;
+} .sr-tw-ul li .icon-right img{
+    width: 100%;
+}
+.mb-50 {
+    margin-bottom: 10px;
+}
+.text-center {
+    text-align: center !important;
+}
+.sr-tw-ul li:nth-child(2) {
+    margin-left: -30px;
+}
+.sr-thr-ul li:nth-child(2) {
+    margin-left: 60px;
+}
+
+.col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.about-content li .text {
+    padding-top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+
+.sr-tw-ul li:hover {
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,.1);
+}
+.sd-img img {
+    width: 100%;
+}
+.sd-img {
+    margin: 0 -120px;
+}
+.img, img {
+    max-width: 100%;
+    transition: all .3s ease-out 0s;
+}
+.section-title .provide-caption{
+    color: #ff4f9d;
+    font-weight: 700 !important;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "PT Serif", serif;
+
+}
+.section-title .provide-title{
+    font-size: 60px;
+    font-weight: 700 !important;
+    position: relative;
+    font-family: "PT Serif", serif;
+
+}
+
+
+
+
+/* form section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .d-lg-block {
+        display: block !important;
+    }
+    .text-center {
+        text-align: center !important;
+    }
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .sr-tw-ul li .icon {
+        padding-right: 20px;
+    }
+    .sr-tw-ul li .icon {
+        width: 108px;
+    }
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }   
+
+
+    
+}
+
+
+@media (max-width: 768px) {
+    .home-banner{
+        padding-top: 16rem;
+        padding-left: 7rem !important;
+        padding-bottom: 8.5rem;
+        padding-right: 1rem;
+    }
+    
+    .caption{
+        font-weight: 600;
+        font-size: 1.1rem !important;
+        color: #FF4F9D;
+        font-family: "PT Serif", serif;
+        margin-bottom: 8px;
+    }
+    
+    .title{
+        font-size: 2rem !important;
+        font-family: "PT Serif", serif;
+        line-height: 1.2;
+    
+    }
+    
+    .sub-caption{
+        font-size: 18px;
+        padding: 1rem 0;
+        width: 500px;
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+        margin-bottom: 0 !important;
+    }
+
+    .cards-img{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .card-body{
+        padding-top: 3rem !important;
+    }
+
+    .home-btn1{
+        padding: 0.7rem 1.4rem 0.7rem 1.4rem;
+        margin-right: 1rem;
+        border-radius: 8px;
+        font-size: 14px !important;
+    }
+    .home-btn2{
+        padding: 0.7rem 1.4rem 0.7rem 1.4rem;
+        border-radius: 8px;
+        font-size: 14px !important;
+
+    }
+    .card-btn{
+        color: white;
+        padding: 0.7rem;
+        font-size: 15px;
+    }
+
+    .care-skin-section{
+        padding: 6rem 1rem;
+    }
+    .care-skin-title{
+        font-size: 2.7rem;
+    }
+    .care-skin-caption{
+        font-size: 1rem;
+    }
+
+    .sr-tw-ul li .icon-right {
+        width: 150px;
+    }
+    .sr-tw-ul li:nth-child(2) {
+        margin-left: -0px;
+    }
+    .sr-thr-ul li:nth-child(2) {
+        margin-left: 0px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 620px) {
+    .home-banner{
+        padding-top: 12rem;
+        padding-left: 5rem !important;
+        padding-bottom: 8.5rem;
+        padding-right: 1rem;
+    }
+    .sub-caption{
+        font-size: 18px;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+    .banner{
+        height: auto;
+    }
+    .home-banner{
+        padding-top: 10rem;
+        padding-left: 2rem !important;
+        padding-bottom: 8.5rem;
+        padding-right: 1rem;
+    }
+    
+    .caption{
+        font-weight: 600;
+        font-size: 1.1rem !important;
+        color: #FF4F9D;
+        font-family: "PT Serif", serif;
+        margin-bottom: 8px;
+    }
+    
+    .title{
+        font-size: 2rem !important;
+        font-family: "PT Serif", serif;
+        line-height: 1.2;
+    
+    }
+    
+    .sub-caption{
+        font-size: 15px;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+        margin-bottom: 0 !important;
+    }
+
+    .cards-img{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .card-body{
+        padding-top: 3rem !important;
+    }
+    .card-btn{
+        color: white;
+        padding: 0.5rem;
+        font-size: 14px;
+    }
+
+    .care-skin-section{
+        padding: 6rem 1rem;
+    }
+    .care-skin-title{
+        font-size: 1.3rem;
+    }
+    .care-skin-caption{
+        font-size: 1rem;
+    }
+
+    .img-4{
+        height: 300px;
+        background:url('https://mediacity.co.in/fallspa/static/media/about_img.b6748cff8cd52813a33b.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+    }
+    .sr-tw-ul li .icon img{
+        width: 100%;
+    } .sr-tw-ul li .icon-right img{
+        width: 100%;
+    }
+    .section-title .provide-title {
+        font-size: 30px;
+        font-weight: 700 !important;
+        position: relative;
+        font-family: "PT Serif", serif;
+    }
+    .sr-tw-ul li {
+        gap: 10px;
+        padding: 0.5rem 0rem;
+    }
+    .home-card-title {
+        width: 100% !important;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+    .home-card-caption {
+        font-size: 0.8rem;
+    }
+    .bg-pink{
+        padding: 1rem;
+    }
+    .f-input{
+        flex-direction: column;
+    }
+    .f-input input:nth-child(2){
+        margin-left: 0rem;
+    }
+    .footer-link p{
+        font-size: 15px;
+    }
+}

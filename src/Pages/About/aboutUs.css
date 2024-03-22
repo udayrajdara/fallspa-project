@@ -1,0 +1,214 @@
+.bg-image-se{
+    /* width: 100vw; */
+    height: 100vh;
+    background: url('https://mediacity.co.in/fallspa/static/media/bdrc-bg.ce5ea59a637d85e1cd36.png') no-repeat center;
+    background-size: cover;
+}
+.about-title{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "PT Serif", serif;
+    padding-top: 5rem;
+}
+
+.about-navigation a{
+    text-decoration: none;
+    color: #FF4F9D;
+}
+.about-navigation{
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+}
+
+.about-caption{
+    padding-left: 1rem;
+    color: #6c757d;
+}
+
+.about-caption::before{
+    color: #ddd;
+    content: "|";
+    padding-right: 1rem;
+}
+
+
+/* Care section */
+
+.about-skin-section{
+    background-image: url('https://mediacity.co.in/fallspa/static/media/about-bg.ce9a15d38086f4a628b7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about-skin-section{
+    padding: 7rem 2rem;
+}
+.about-skin-about{
+    font-size: 23px;
+}
+
+.about-skin-title{
+    font-size: 4rem;
+    color: #00173C;
+    line-height: 1.2;
+}
+
+.about-skin-caption{
+    font-size: 14px;
+    line-height: 2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(121, 121, 121);
+}
+
+.img-4{
+    height: 550px;
+    background:url('https://mediacity.co.in/fallspa/static/media/about_img.b6748cff8cd52813a33b.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+/* FAQ Section */
+
+.faq{
+    background: url("https://mediacity.co.in/fallspa/static/media/ap-bg.bd776d2f5dd0467e59c3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem 0;
+}
+.faq-height{
+    height: 700px;
+}
+.faq-left{
+    width: 100%;
+    margin-right: 2rem;
+    height: 100%;
+    background: url("https://mediacity.co.in/fallspa/assets/img/bg/faq-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faq-right{
+    width: 100%;
+    height: 100%;
+    /* padding: 4rem 0; */
+}
+
+.faq-caption{
+    color: #FF4F9D;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: "PT Serif", serif;
+}
+.faq-title{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: "PT Serif", serif;
+}
+.faq-center{
+    width: 550px;
+}
+.faq-maping{
+    margin-top: 2rem;
+}
+.faq-btn-sec{
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 2.5px 4.33px 15px 0 rgba(0,0,0,.09);
+    border-radius: 5px !important;
+}
+.faq-dropdown{
+    box-shadow: 2.5px 4.33px 15px 0 rgba(0,0,0,.09);
+    border-radius: 5px;
+
+}
+.faq-btn-faq{
+    background-color: #F8F8F8;
+    font-family: "PT Serif", serif;
+    border-radius: 5px 0px 5px 0px;
+    cursor: pointer;
+    
+}
+.faq-btn-faq-hover{
+    background-color: white;
+    font-family: "PT Serif", serif;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.faq-btn{
+    background-color: transparent;
+    font-weight: 600;
+    padding: 0rem 1.5rem;
+    font-family: "PT Serif", serif;
+    border-radius: 5px 5px 5px 5px;
+
+
+}
+.faq-icon-b{
+    border-radius: 0px 5px 5px 0px;
+    background-color: #884CD2;
+    padding: 1rem 1.5rem;
+    font-size: 20px;
+    color: white;
+}
+.faq-icon-b svg{
+    stroke-width: 2.5rem;
+}
+.faq-icon svg{
+    stroke-width: 2.5rem;
+}
+.faq-icon{
+    background-color: #884CD2;
+    padding: 1rem 1.5rem;
+    font-size: 20px;
+    color: white;
+    border-radius: 0px 5px 0px 0px;
+}
+.faq-content-hide{
+    display: none;
+}
+.faq-content{
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    display: block;
+    color: #6e6e6e;
+    font-family: Roboto, sans-serif;
+
+}
+
+
+@media (max-width: 767px) {
+    .faq-height{
+        height: 100%;
+        flex-direction: column;
+    }
+    .faq-left{
+        margin-right: 0rem;
+        height: 300px;
+    }
+    .faq-right{
+        padding: 1rem;
+    }
+    .faq-title{
+        font-size: 2.5rem;
+    }
+    .about-skin-title{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .faq-title{
+        font-size: 2rem;
+    }
+    .about-skin-title{
+        font-size: 2.2rem;
+    }
+}

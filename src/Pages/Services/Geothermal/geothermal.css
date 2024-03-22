@@ -1,0 +1,235 @@
+.bg-image-se{
+    /* width: 100vw; */
+    height: 100vh;
+    background: url('https://mediacity.co.in/fallspa/static/media/bdrc-bg.ce5ea59a637d85e1cd36.png') no-repeat center;
+    background-size: cover;
+}
+.facisl-title{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "PT Serif", serif;
+    padding-top: 9rem;
+}
+
+.cation-navigation a{
+    text-decoration: none;
+    color: #FF4F9D;
+}
+.cation-navigation{
+    font-size: 15px;
+    padding-top: 1rem;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+}
+
+.facials-caption{
+    padding-left: 1rem;
+    color: #6c757d;
+}
+
+.facials-caption::before{
+    color: #ddd;
+    content: "|";
+    padding-right: 1rem;
+}
+
+
+/* Best Services Section */
+
+
+.facial-services-list{
+    width: 350px;
+    height: auto;
+    padding: 1rem 0;
+    background-color: #F3F4F8;
+    position: relative;
+}
+.left{
+    margin-right: 3rem;
+}
+.service-1{
+    margin: 1rem;
+    border: 0.1px solid #ddd;
+    background-color: white;
+    color: black;
+    transition: all .2s;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+.service-1 a:hover{
+    color: white !important;
+}
+.facial-services-list ul{
+    list-style: none;
+}
+.activeted a{
+    background-color: #FF4F9D;
+    color: white;
+}
+.activeted::before{
+    content: " ";
+    width: 3px;
+    height: 56px;
+    position: absolute;
+    background-color: black;
+}
+
+.service-1:hover::before{
+    content: " ";
+    width: 3px;
+    height: 56px;
+    position: absolute;
+    background-color: black;
+}
+.service-1:hover{
+    background-color: #FF4F9D;
+    color: white;
+}
+.service-1:hover .arrow-icon{
+    background-color: black;
+    color: white;
+}
+.services-sec-name{
+    padding: 1rem 1.5rem;
+
+}
+.active-arrow-icon{
+    background-color: black !important;
+    color: white !important;
+}
+.arrow-icon{
+    background-color: #ddd;
+    padding: 1rem 1.5rem;
+    color: black;
+    transition: all .4s;
+
+}
+.need-help{
+    margin-top: 3.5rem;
+    width: 100%;
+    height: auto;
+    background-color: #F3F4F8;
+}
+.facial-service-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.facial-service-details p{
+    font-size: 16px;
+    color: #6c757d;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+}
+
+.images-section img{
+    width: 350px !important;
+}
+.need-help{
+    margin-bottom: 2rem;
+}
+.need-help-sub-sec{
+    position: relative;
+}
+
+.need-title::before{
+    content: " ";
+    position: absolute;
+    width: 35px;
+    height: 6px;
+    background-color: #FF4F9D;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.phone-num{
+    margin-top: 2rem;
+    font-family: Roboto, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .images-section img{
+        width: 250px !important;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .left{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .facials-best-services{
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .facial-services-list{
+        width: 100%;
+    }
+    .left{
+        margin-right: 0;
+    }
+    .images-section{
+        flex-direction: column;
+    }
+    .images-section img{
+        width: 100% !important;
+        margin-bottom: 2rem;
+    }
+    .choose-service, .work-progress{
+        padding-top: 0.5rem !important;
+        font-size: 25px !important;
+    }
+    .last-para{
+        padding-top: 2.5rem !important;
+        padding-bottom: 5.5rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .bg-image-se{
+        height: auto !important;
+    }
+    .cation-navigation{
+        display: none;
+    }
+    .facisl-title{
+        font-size: 1.8rem;
+        font-weight: 600;
+        font-family: "PT Serif", serif;
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width:500px) {
+    .facisl-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: "PT Serif", serif;
+        padding: 3rem 0;
+    }
+    .bg-image-se{
+        height: auto !important;
+    }
+}
