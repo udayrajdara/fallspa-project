@@ -48,7 +48,7 @@ This project highlights my ability to build interactive web applications, work w
 Clone the repository:
 
 ```bash
-git clone <[repository-url](https://github.com/udayrajdara/fallspa-project)>
+git clone [repository-url](https://github.com/udayrajdara/fallspa-project)
 ```
 
 Install dependencies:
