@@ -42,21 +42,13 @@ This project highlights my ability to build interactive web applications, work w
 * Frontend Project Structure
 * Deployment and Hosting
 
-```md
-## 📸 Preview
-
-Add your project screenshots here.
-
-
-![FallSpa Preview](./assets/fallspa-preview.png)
-```
 
 ## ⚙️ Installation
 
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <[repository-url](https://github.com/udayrajdara/fallspa-project)>
 ```
 
 Install dependencies:
