@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.bg-image-se{
+    height: 100vh;
+    background: url('Components/images/slider_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +34,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
 }
 
 @keyframes App-logo-spin {

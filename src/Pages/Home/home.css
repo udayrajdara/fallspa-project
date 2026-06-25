@@ -1,6 +1,6 @@
 .banner{
     height: auto;
-    background:url('https://mediacity.co.in/fallspa/static/media/slider_bg.ce5ea59a637d85e1cd36.png');
+    background:url('../../Components/images/slider_bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -79,7 +79,7 @@
 
 .img1{
     height: auto !important;
-    background:url('https://mediacity.co.in/fallspa/static/media/banner-01.5d5bc98ec29746557efe.png');
+    background:url('../../Components/images/banner-01.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +87,7 @@
 }
 .img2{
     height: auto !important;
-    background: url('https://mediacity.co.in/fallspa/static/media/banner-02.f0e35a01b097359e9e97.png');
+    background: url('../../Components/images/banner-02.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,7 +95,7 @@
 }
 .img3{
     height: auto !important;
-    background:url('https://mediacity.co.in/fallspa/static/media/banner-03.c7d1bc19a9e94194907c.png');
+    background:url('../../Components/images/banner-03.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,8 +158,7 @@
 /* Care Skin Section */
 
 .care-skin-section{
-    background-image: url('https://mediacity.co.in/fallspa/static/media/about-bg.ce9a15d38086f4a628b7.png');
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -185,7 +184,7 @@
 
 .img-4{
     height: 550px;
-    background:url('https://mediacity.co.in/fallspa/static/media/about_img.b6748cff8cd52813a33b.png');
+    background:url('../../Components/images/about_img.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -199,7 +198,7 @@
     background-color: transparent;
 } */
 .bg-provide{
-    background-image: url('https://mediacity.co.in/fallspa/static/media/services-bg.5894564ee3c906558349.png');
+    /* background-image: url('../../Components/images/services-img-details2.png'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -515,7 +514,7 @@
 
     .img-4{
         height: 300px;
-        background:url('https://mediacity.co.in/fallspa/static/media/about_img.b6748cff8cd52813a33b.png');
+        background:url('../../Components/images/about_img.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;

@@ -6,7 +6,9 @@ import './navbar.css';
 const Navbar =()=>{
 
     return (
-        <div className='conatiner'>
+        <header className="header-area header-three">
+            <div id="header-sticky" class="menu-area sticky-menu">
+            <div className='container'>
            <div className="child-container">
                 <nav>
                     <div className='nav-top'>
@@ -29,7 +31,9 @@ const Navbar =()=>{
                     </div>
                 </nav>
            </div>
-        </div>
+           </div>
+           </div>
+        </header>
     );
 };
 export default Navbar;

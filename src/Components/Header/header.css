@@ -1,23 +1,73 @@
-.navbar-brand img{
-    width: 160px;
-}
-.container{
-    font-family: "PT Serif", serif;
+/* ===========================
+   NAVBAR
+=========================== */
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: transparent;
+    transition: all 0.4s ease;
+    z-index: 9999;
 }
-.container a{
-    text-decoration: none;
-    color: black;
+
+/* Sticky Navbar */
+.sticky-navbar {
+    background: #fff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    padding: 12px 0;
+    animation: slideDown .4s ease;
 }
-.plus-icon{
+
+/* Logo */
+.navbar-brand img {
+    width: 160px;
+    transition: .3s;
+}
+
+/* Container */
+.container {
+    font-family: "PT Serif", serif;
+}
+
+/* ===========================
+   NAV LINKS
+=========================== */
+
+.navbar .nav-link {
+    color: #000 !important;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.sticky-navbar .nav-link {
+    color: #222 !important;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.sticky-navbar .navbar-brand {
+    color: #222;
+}
+
+.plus-icon {
     color: #FF4F9D;
     font-size: 13px;
 }
-.dropdown-toggle::after{
+
+.dropdown-toggle::after {
     display: none;
 }
 
-.dropdown-menu{
+/* ===========================
+   DROPDOWN
+=========================== */
+
+.dropdown-menu {
     border-radius: 0 !important;
     border: none !important;
     border-top: 2px solid #FF4F9D !important;
@@ -25,85 +75,111 @@
     box-shadow: 1px 1px 8px rgba(137, 137, 137, 0.331);
 }
 
-
-.line{
+.line {
     border-bottom: 0.1px solid rgba(120, 118, 118, 0.189);
     font-weight: 600;
-
 }
-.dropdown-item{
+
+.dropdown-item {
     display: flex;
-    justify-content: space-between !important;
-    padding: 10px 10px;
-
-}
-
-.nav-item, .dropdown-item{
+    justify-content: space-between;
+    padding: 10px;
     font-weight: 600;
-
 }
 
-.dropdown-item:hover, a:hover{
+.dropdown-item:hover, a:hover {
+    color: #FF4F9D !important;
+    background: transparent;
+}
+
+.nav-link:hover {
     color: #FF4F9D !important;
 }
 
-.btn{
-    background-color: #884CD2;
-    color: white;
-    padding: 0.7rem;
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn {
+    background: #884CD2;
+    color: #fff;
+    padding: 0.7rem 1rem;
     margin-left: 1.3rem;
+    border: none;
+    transition: .3s;
 }
 
-.btn:hover{
-background-color: #FF4F9D;
-color: white;
+.btn:hover {
+    background: #FF4F9D;
+    color: #fff;
 }
 
-@media (max-width: 992px) {
-    .navbar-toggler{
+/* ===========================
+   ANIMATION
+=========================== */
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:992px) {
+
+    .navbar-toggler {
         border-radius: 0;
-        border: 1px solid black;
+        border: 1px solid #000;
         outline: none;
         padding: 3px;
     }
 
-    .dropdown-menu{
-        border-radius: 0 !important;
+    .navbar-collapse {
+        padding-top: 2rem;
+    }
+
+    .navbar-nav {
+        background: rgba(255,255,255,.95);
+        padding: 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        color: #222 !important;
+    }
+
+    .dropdown-menu {
         border: none !important;
-        padding: 0 !important;
         box-shadow: none;
-        background-color: transparent;
+        background: transparent;
     }
-    
-    .lines, .line{
-        /* padding: 10px 10px; */
-        border-bottom: 0.1px solid rgba(120, 118, 118, 0.189);
+
+    .lines,
+    .line {
+        border-bottom: 0.1px solid rgba(120,118,118,0.189);
         font-weight: 600;
-    
     }
-    .navbar-nav{
-        background-color: rgba(255, 255, 255, 0.715);
-        padding-left: 1rem;
-    }
-    .btn-none{
+
+    .btn-none {
         display: none !important;
     }
-    .navbar-collapse{
-        padding-top: 2rem !important;
-        
-    }
-    .dropdown{
-        transition: 0.3s ease-in-out;
-
-    }
-
 }
 
-@media (max-width: 500px) {
-    .navbar-brand img{
+@media (max-width:500px) {
+
+    .navbar-brand img {
         width: 130px;
     }
-    .navbar-toggler-icon{
+
+    .navbar-toggler-icon {
         width: 1.4rem;
         height: 1.4rem;
     }

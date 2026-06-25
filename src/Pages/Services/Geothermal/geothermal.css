@@ -1,9 +1,10 @@
-.bg-image-se{
-    /* width: 100vw; */
-    height: 100vh;
-    background: url('https://mediacity.co.in/fallspa/static/media/bdrc-bg.ce5ea59a637d85e1cd36.png') no-repeat center;
+/* .bg-image-se{
+    height: auto;
+    background: url('../../../Components/images/slider_bg.png') !important;
     background-size: cover;
-}
+    background-position: center;
+    background-repeat: no-repeat;
+} */
 .facisl-title{
     font-size: 4rem;
     font-weight: 600;

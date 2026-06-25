@@ -1,5 +1,6 @@
 import React from "react";
 import "./form.css";
+import openBox from "../images/open-box.png";
 
 const Form = () => {
   return (
@@ -66,7 +67,7 @@ const Form = () => {
             <div className="opening-hr-section">
               <div className="op-section">
                 <img
-                  src="https://mediacity.co.in/fallspa/static/media/open-box-img.1905f0f105ce7e96eff0.png"
+                  src={openBox}
                   alt="icon01"
                 />
                 <h3>Opening Hours</h3>

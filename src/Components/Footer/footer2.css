@@ -1,9 +1,11 @@
 
 .footer{
     width: 100%;
-    background-image: url('https://mediacity.co.in//fallspa/static/media/footer-bg.72ed36e129342f713682.png');
+    background-image: url('../images/footer-bg.png');
+    background-color: #252525;
     color: white;
     font-family: Roboto, sans-serif;
+    background-size: cover;
 }
 .web-logo img{
     width: 60%;

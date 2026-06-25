@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import Footer from "../../Components/Footer/footer2";
 import { FaArrowRight } from "react-icons/fa6";
 import "./services.css";
+import innerB1 from "../../Components/images/inner_b1.jpg";
+import innerB2 from "../../Components/images/inner_b2.jpg";
+import bDetails from "../../Components/images/b_details01.jpg";
 
 const Services = () => {
   return (
@@ -124,11 +127,11 @@ const Services = () => {
 
               <div className="images-section d-flex justify-content-between pt-3">
                 <img
-                  src="https://mediacity.co.in/fallspa/assets/img/blog/inner_b1.jpg"
+                  src={innerB1}
                   alt=""
                 />
                 <img
-                  src="https://mediacity.co.in/fallspa/assets/img/blog/inner_b2.jpg"
+                  src={innerB2}
                   alt=""
                 />
               </div>
@@ -167,7 +170,7 @@ const Services = () => {
               </p>
               <img
                 className="pt-3"
-                src="https://mediacity.co.in/fallspa/assets/img/blog/b_details01.jpg"
+                src={bDetails}
                 alt=""
               />
               <p className="pt-4 last-para">

@@ -4,6 +4,13 @@ import Header from '../../Components/Header/header';
 import { Link, useNavigate } from 'react-router-dom';
 import Footer from '../../Components/Footer/footer2';
 import Form from '../../Components/Form/form';
+import icon4 from '../../Components/images/fe-icon04.png'
+import icon1 from '../../Components/images/fe-icon01.png'
+import icon5 from '../../Components/images/fe-icon05.png'
+import icon6 from '../../Components/images/fe-icon06.png'
+import icon7 from '../../Components/images/fe-icon07.png'
+import icon8 from '../../Components/images/fe-icon08.png'
+import serviceImg from '../../Components/images/services-img-details2.png'
 
 const Home = () => {
 
@@ -102,7 +109,7 @@ const Home = () => {
                             <ul className='sr-tw-ul'>
                                 <li>
                                     <div className='icon-right'>
-                                        <img src="https://mediacity.co.in/fallspa/assets/img/icon/fe-icon01.png" alt="icon01"/>
+                                        <img src={icon1} alt="icon04"/>
                                     </div>
                                     <div className="text">
                                         <h4><Link to={"/services/facials"}>Facials</Link></h4>
@@ -110,14 +117,14 @@ const Home = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className='icon-right'><img src="https://mediacity.co.in/fallspa/assets/img/icon/fe-icon05.png" alt="icon01"/></div>
+                                    <div className='icon-right'><img src={icon5} alt="icon05"/></div>
                                     <div className="text">
                                         <h4><Link to={"/services/mineralBath"}>Mineral Bath</Link></h4>
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <div className='icon-right'><img src="https://mediacity.co.in/fallspa/assets/img/icon/fe-icon07.png" alt="icon01"/></div>
+                                    <div className='icon-right'><img src={icon7} alt="icon07"/></div>
                                     <div className="text">
                                         <h4><Link to={"/services/massage"}>Massage</Link></h4>
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
@@ -129,28 +136,28 @@ const Home = () => {
 
                     <div className="col-lg-4 col-md-12 col-sm-12 text-center d-none d-lg-block">
                         <div className="sd-img">
-                            <img src="	https://mediacity.co.in/fallspa/static/media/services-img-details2.20e1bc1b939dea2d577b.png" alt="img"/>
+                            <img src={serviceImg} alt="img"/>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className='about-content s-about-content'>
                             <ul className='sr-tw-ul sr-thr-ul'>
                                 <li>
-                                    <div className='icon'><img src="https://mediacity.co.in/fallspa/assets/img/icon/fe-icon04.png" alt="icon01"/></div>
+                                    <div className='icon'><img src={icon4} alt="icon01"/></div>
                                     <div className="text pt-10">
                                         <h4><Link to={"/services/bodyTreatment"}>Body Treatment</Link></h4>
                                         <p>Cras id aliquam leo. Vestibulum laoreet, mi sit amet tristique tincidunt nec laoreet.</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <div className='icon'><img src="https://mediacity.co.in/fallspa/assets/img/icon/fe-icon06.png" alt="icon01"/></div>
+                                    <div className='icon'><img src={icon6} alt="icon06"/></div>
                                     <div className="text pt-10">
                                         <h4><Link to={"/services/waxing"}>Waxing</Link></h4>
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <div className='icon'><img src="https://mediacity.co.in/fallspa/assets/img/icon/fe-icon08.png" alt="icon01"/></div>
+                                    <div className='icon'><img src={icon8} alt="icon08"/></div>
                                     <div className="text pt-10">
                                         <h4><Link to={"/services/massage"}>Geothermal Spa</Link></h4>
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>

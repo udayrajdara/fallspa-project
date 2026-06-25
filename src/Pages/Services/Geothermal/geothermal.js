@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import Footer from '../../../Components/Footer/footer2';
 import { FaArrowRight } from 'react-icons/fa6';
 import './geothermal.css';
+import innerB1 from "../../../Components/images/inner_b1.jpg";
+import innerB2 from "../../../Components/images/inner_b2.jpg";
+import bDetails from "../../../Components/images/b_details01.jpg";
 
 const GeoThermal = () => {
     return (
@@ -45,15 +48,15 @@ const GeoThermal = () => {
                         <p className='pt-3'>Pleasure and praising pain was born and I will give you a complete account of the systems, and expound the actually teachings of the great explorer of the truth, the master-builder of human uts happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally Nor who loves or pursues or desires to obtain pain of itself.</p>
 
                         <div className="images-section d-flex justify-content-between pt-3">
-                            <img src="https://mediacity.co.in/fallspa/assets/img/blog/inner_b1.jpg" alt="" />
-                            <img src="https://mediacity.co.in/fallspa/assets/img/blog/inner_b2.jpg" alt="" />
+                            <img src={innerB1} alt="" />
+                            <img src={innerB2} alt="" />
                         </div>
                         <div className="choose-service fs-3 fw-semibold pt-5">Why Choose This Service</div>
                         <p className='pt-3'>Complete account of the systems and expound the actually teachings of the great explorer of the truth, the master-builder of human uts happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely.</p>
                         <p className='pt-3'>Complete account of the systems and expound the actually teachings of the great explorer of the truth, the master-builder of human uts happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally.</p>
                         <div className="work-progress fs-3 fw-semibold pt-4">Working Process</div>
                         <p className='pt-3'>Quam parturient mi amet curae augue varius laoreet vehicula non sem aliquet lectus justo litora fames estab phasellus risus ad sollicitudin magna Viverra diam pretium cursus curabitur parturient convallis hymenaeos suspendisse nibh facilisi purus penatibus habitasse mus orcine muscle adipiscing sapien aliquam nulla. Erat parturient auctor facilisis. Nisi cum fringilla hymenaeos ridiculus habitasses augue nullam fringilla. Taciti convallis. Vitae sapien nisi enim vis metus cras fusce lectus sed luctus quis Clas nisl blandit parturient molestie praesent nec</p>
-                        <img className='pt-3' src="https://mediacity.co.in/fallspa/assets/img/blog/b_details01.jpg" alt="" />
+                        <img className='pt-3' src={bDetails} alt="" />
                         <p className='pt-4 last-para'>Phasellus hac phasellus consequat malesuada veler aliquam dictumst amet a phasellus lacinia integer curabitur duis. Urna taciti nisl torquent varius libero dui. Tempus magnis libero pulvinar purus pharetra justo sem curae duis eget tempus erat ornare. Consequat litora a blandit fermentum. Quam taciti site nascetur nunc litora quis tempor metus adipiscing ac quis sodales ultrices cubilia. Arcu in penatibus vestibulum diam. Curabitur platea quam fusce molestie venenatis platea ligula in aenean gravida dolor aptent nostra luctus rutrum morbi porttitor cursus</p>
                     </div>
                 </div>

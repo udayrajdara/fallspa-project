@@ -5,6 +5,7 @@ import './aboutUs.css';
 import Form from '../../Components/Form/form';
 import Footer from '../../Components/Footer/footer2';
 import { FaChevronDown, FaChevronLeft } from 'react-icons/fa6';
+import faq_img from '../../Components/images/faq-img.png'
 
 const AboutUs = () => {
 
@@ -66,7 +67,7 @@ const AboutUs = () => {
             <div className="cards mb-3 img4">
             <div className="row g-0">
                 <div className="col-md-6 img-4">
-
+  
                 </div>
                 <div className="col-md-5">
                 <div className="card-body">
@@ -85,7 +86,7 @@ const AboutUs = () => {
                 <div className="">
                 <div className="faq-height d-flex justify-content-center align-items-center align-content-center">
                     <div className="faq-left">
-                        {/* <img src="" alt="faq-img" /> */}
+                        <img src={faq_img} alt="faq-img" />
                     </div>
                     <div className="faq-right d-flex justify-content-center">
                         <div className="faq-center">

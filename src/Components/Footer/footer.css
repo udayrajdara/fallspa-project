@@ -1,10 +1,11 @@
-/* .pt{
+.pt{
     padding-top: 4rem;
     font-family: Roboto, sans-serif;
 }
 .footer{
-    background-image: url('https://mediacity.co.in//fallspa/static/media/footer-bg.72ed36e129342f713682.png');
-
+    background-image: url('../images/footer-bg.png');
+    background-color: #252525;
+    background-size: cover;
 }
 .footer-widget{
     color: #d4d4d4;
@@ -214,11 +215,11 @@ span {
 
 
 
-} */
+}
 
 /* @media (max-width: 500px) {
     .row{
         grid-template-columns: repeat(2,1fr) !important;
     }
     
-} */
+}
