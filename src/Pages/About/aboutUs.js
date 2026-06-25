@@ -3,7 +3,7 @@ import Header from '../../Components/Header/header';
 import { Link } from 'react-router-dom';
 import './aboutUs.css';
 import Form from '../../Components/Form/form';
-import Footer from '../../Components/Footer/footer2';
+import Footer from '../../Components/Footer/footer';
 import { FaChevronDown, FaChevronLeft } from 'react-icons/fa6';
 import faq_img from '../../Components/images/faq-img.png'
 

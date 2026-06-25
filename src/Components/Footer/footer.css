@@ -217,9 +217,3 @@ span {
 
 }
 
-/* @media (max-width: 500px) {
-    .row{
-        grid-template-columns: repeat(2,1fr) !important;
-    }
-    
-}

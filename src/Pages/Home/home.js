@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css'
 import Header from '../../Components/Header/header';
 import { Link, useNavigate } from 'react-router-dom';
-import Footer from '../../Components/Footer/footer2';
+import Footer from '../../Components/Footer/footer';
 import Form from '../../Components/Form/form';
 import icon4 from '../../Components/images/fe-icon04.png'
 import icon1 from '../../Components/images/fe-icon01.png'

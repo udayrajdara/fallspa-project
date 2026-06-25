@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../../Components/Header/header';
 import { Link } from 'react-router-dom';
-import Footer from '../../../Components/Footer/footer2';
+import Footer from '../../../Components/Footer/footer';
 import { FaArrowRight } from 'react-icons/fa6';
 import './massage.css';
 import innerB1 from "../../../Components/images/inner_b1.jpg";

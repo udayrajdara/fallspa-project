@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../Components/Header/header';
 import Form from '../../Components/Form/form';
-import Footer from '../../Components/Footer/footer2';
+import Footer from '../../Components/Footer/footer';
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
